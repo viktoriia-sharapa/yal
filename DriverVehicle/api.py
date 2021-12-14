@@ -10,7 +10,7 @@ class DriverViewSet(viewsets.ModelViewSet):
     ]
     serializer_class = DriverSerializer
 
-    
+
 class VehicleViewSet(viewsets.ModelViewSet):
     queryset = Vehicle.objects.all()
     permission_classes = [
